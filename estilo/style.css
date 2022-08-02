@@ -33,13 +33,16 @@ section#telefone{
     background: url('../imagens/frame-iphone.png') no-repeat;   
 }
 
-iframe#tela02{
+iframe#tela{
     height: 473px;
     width: 268px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: url('../imagens/tela-home.jpg') no-repeat;
-    background-size: cover;
+    position: relative;
+    top: 80px;
+    left: 22px;
+}
+
+img{
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
 }
